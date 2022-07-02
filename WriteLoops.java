@@ -120,9 +120,9 @@ public class WriteLoops {
         // prints “Hello Zipcode” instead of the statement w = w + 1;
                 // calling
 
-                if(i>51) {System.out.println("Hello Zipcode")
+                if(i>51) {System.out.println("Hello Zipcode");
 
-                ;} else {
+                } else {
                     w=w+1;
                 }
 
