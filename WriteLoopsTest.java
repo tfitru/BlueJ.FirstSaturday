@@ -114,7 +114,7 @@ public class WriteLoopsTest
     public void TestCheckGameScoreDoWhile()
     {
         WriteLoops writeLoo1 = new WriteLoops();
-        assertEquals(false, writeLoo1.checkGameScoreDoWhile());
+        assertEquals(true, writeLoo1.checkGameScoreDoWhile());
     }
 
     @Test
