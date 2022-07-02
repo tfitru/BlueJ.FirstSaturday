@@ -204,18 +204,18 @@ public class WriteLoops {
         int runningScore = 0;
         
         do{
-            if(runningScore<highestScore){
+
             runningScore+=currentScore;
             currentScore = gameNextScore();
-            }
+
         // do your while loop here
             // calling
-            w = w + 1;
+            w--;
             // each time through the inner loop
 
-        } while(w<=3);
+        } while(runningScore <highestScore);
 
-        return true;
+        return w>=3;
     }
 
     // Write a WHILE loop that checks “serverIsRunning()” and if true
